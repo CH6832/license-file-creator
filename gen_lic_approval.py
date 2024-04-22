@@ -188,7 +188,7 @@ def set_meta_section_table_cell_width(doc_info_section, colum_num: int, inche_nu
     inche_num        -- column width
     """
     cell: _Cell
-    all_cells_info_sec: Tuple[(_Cell) * 3] = doc_info_section.columns[colum_num].cells
+    all_cells_info_sec = doc_info_section.columns[colum_num].cells
     for cell in all_cells_info_sec:
         cell.width = Inches(inche_num)
         return cell
@@ -291,7 +291,7 @@ def main() -> None:
         # ------------------------------------------------------------------------------------------------------------------
         # header section:
         # ------------------------------------------------------------------------------------------------------------------
-        header: section._Header = section.header
+        header: Any = section.header
         # table contains 1 row and 2 cells
         header_table = header.add_table(1, 2, Inches(12))
         cell: _Cell
