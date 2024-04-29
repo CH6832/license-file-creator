@@ -17,25 +17,31 @@ A small commandline tool that allows the user to create a license file template.
 
 ## :runner: Getting started
 
-1. Clone the project to a location of your choice:
+0. Clone the project to a location of your choice:
 
 ```sh
 git clone https://github.com/CH6832/license-file-creator.git
 ```
 
-1. Install relevant requirements:
+1. Extract the project to a location of your choice.
+
+```sh
+tar -xf license-file-creator.zip
+```
+
+2. Install relevant requirements:
 
 ```sh
 pip3 install -r requirements.txt
 ```
 
-2. Run the script with parameters of you need to generate a license approval file:
+3. Run the script with parameters of you need to generate a license approval file:
 
 ```sh
 python3 gen_lic_approval.py -family='eba' -version="3.2"
 ```
 
-3. If the file has been generated:
+4. If the file has been generated:
 
 ```sh
 Document successfully generated!
