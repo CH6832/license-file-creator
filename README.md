@@ -9,7 +9,9 @@ A small commandline tool that allows the user to create a license file template.
     .
     ├── img/ - folder where all the images can be found for the application
     ├── lics/ - folder where the license files are generated into
+    ├── CODE_OF_CONDUCT.md - project code of conduct
     ├── Constants.py - contains all constants for the program
+    ├── COPYRIGHT - project copyright
     ├── gen_lic_approval.py main program and code designing and generating the file
     ├── README.md - relevant information about the project
     ├── LICENSE - license text
@@ -70,3 +72,11 @@ Your generated file: filebasename 3.2 XBRL Taxonomy - Third Party Software Licen
 ## :bookmark: License
 
 This project is licensed under the terms of the [GPL v3](LICENSE).
+
+## :copyright: Copyright
+
+See the [COPYRIGHT](COPYRIGHT) file for copyright and licensing details.
+
+## :straight_ruler: Code of Conduct
+
+Please review our [Code of Conduct](CODE_OF_CONDUCT.md) before contributing to this project.
