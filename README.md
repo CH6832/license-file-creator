@@ -2,7 +2,7 @@
 
 ## :newspaper: About the project
 
-A small commandline tool that allows the user to create a license file template. An example can be found in the `lics/` folder.
+Craft your license file with ease using our sleek command-line tool! Simply generate a customizable template in seconds. Check out our sample in the `lics/` folder for inspiration.
 
 ### Content overview
 
