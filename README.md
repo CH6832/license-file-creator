@@ -25,25 +25,19 @@ A small commandline tool that allows the user to create a license file template.
 git clone https://github.com/CH6832/license-file-creator.git
 ```
 
-1. Extract the project to a location of your choice.
-
-```sh
-tar -xf license-file-creator.zip
-```
-
-2. Install relevant requirements:
+1. Install relevant requirements:
 
 ```sh
 pip3 install -r requirements.txt
 ```
 
-3. Run the script with parameters of you need to generate a license approval file:
+2. Run the script with parameters of you need to generate a license approval file:
 
 ```sh
 python3 gen_lic_approval.py -family='eba' -version="3.2"
 ```
 
-4. If the file has been generated:
+3. If the file has been generated:
 
 ```sh
 Document successfully generated!
@@ -58,9 +52,9 @@ Your generated file: filebasename 3.2 XBRL Taxonomy - Third Party Software Licen
 ## :books: Resources used to create this project
 
 * Python
-  * [Python 3.11 documentation](https://docs.python.org/3.11/)
-  * [Built-in Functions](https://docs.python.org/3.11/library/functions.html)
-  * [Python Module Index](https://docs.python.org/3.11/py-modindex.html)
+  * [Python 3.12 documentation](https://docs.python.org/3/)
+  * [Built-in Functions](https://docs.python.org/3/library/functions.html)
+  * [Python Module Index](https://docs.python.org/3/py-modindex.html)
 * Markdwon
   * [Basic syntax](https://www.markdownguide.org/basic-syntax/)
   * [Complete list of github markdown emofis](https://dev.to/nikolab/complete-list-of-github-markdown-emoji-markup-5aia)
