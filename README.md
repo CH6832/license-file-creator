@@ -9,7 +9,6 @@ Craft your license file with ease using our sleek command-line tool! Simply gene
     .
     ├── img/ - folder where all the images can be found for the application
     ├── lics/ - folder where the license files are generated into
-    ├── CODE_OF_CONDUCT.md - project code of conduct
     ├── Constants.py - contains all constants for the program
     ├── COPYRIGHT - project copyright
     ├── gen_lic_approval.py main program and code designing and generating the file
